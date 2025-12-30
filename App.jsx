@@ -13,9 +13,9 @@ import Hero2 from "./pages/Hero2";
      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<LoginCard />} />
-        <Route path="/signup" element={<SignupCard />} />
-        <Route path="/upload" element={<Hero2/>} />
+        <Route path="login" element={<LoginCard />} />
+        <Route path="signup" element={<SignupCard />} />
+        <Route path="upload" element={<Hero2/>} />
       </Routes>
       <Footer />
     
